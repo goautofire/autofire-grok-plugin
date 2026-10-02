@@ -7,7 +7,7 @@ AutoFire is the dealership's website and inventory platform. The `autofire` MCP 
 
 ## Connecting
 
-If no AutoFire tools are available, tell the user to connect AutoFire: it opens AutoFire in their browser, where a dealership owner or admin signs in, picks the dealership, and chooses permissions. There is no API key to paste.
+If no AutoFire tools are available, tell the user to connect AutoFire: it opens AutoFire in their browser, where they sign in with their AutoFire account, pick the dealership, and choose permissions. There is no API key to paste.
 
 ## Tools
 

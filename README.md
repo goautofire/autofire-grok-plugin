@@ -8,7 +8,7 @@ Gives Grok read-only access to one car dealership's data on [AutoFire](https://w
 
 **Grok on the web or mobile:** open [grok.com/connectors](https://grok.com/connectors), select **New Connector → Custom**, and enter `https://mcp.goautofire.com/mcp`.
 
-Either way, the first connection opens AutoFire in your browser. Sign in as a dealership owner or admin, choose the dealership Grok may read, pick the permissions, and select **Allow**. There is no API key to paste.
+Either way, the first connection opens AutoFire in your browser. Sign in with your AutoFire account, choose the dealership Grok may read, pick the permissions, and select **Allow**. There is no API key to paste.
 
 Full guide: [docs.goautofire.com/mcp/grok](https://docs.goautofire.com/mcp/grok).
 
@@ -25,7 +25,7 @@ No hooks, commands, agents, or local code.
 - `https://mcp.goautofire.com/.well-known/oauth-protected-resource/mcp`: OAuth discovery, which points at AutoFire's Supabase Auth issuer for dynamic client registration, authorization, token exchange, and refresh (OAuth 2.1, PKCE S256).
 - `https://www.goautofire.com/oauth/consent`: where the user signs in and approves access.
 
-Credentials: an AutoFire account that owns or administers the dealership. Tokens are short-lived and refreshed by Grok; the dealership can disconnect Grok at any time under **Dashboard → MCP & API** in AutoFire.
+Credentials: an AutoFire account on the dealership's team (owner, admin, or staff). Tokens are short-lived and refreshed by Grok; the dealership can disconnect Grok at any time under **Dashboard → MCP & API** in AutoFire.
 
 ## Tools
 
