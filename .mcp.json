@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "autofire": {
+      "type": "http",
+      "url": "https://mcp.goautofire.com/mcp",
+      "note": "Hosted AutoFire MCP server (Streamable HTTP, OAuth 2.1 with PKCE and dynamic client registration). On first connection the user signs in with their AutoFire account, chooses one dealership, and picks the read-only permissions the plugin gets; no API key to paste. Tools: get_dealership_profile, search_inventory, get_vehicle, list_leads, list_followup_priorities, get_lead, list_test_drives, get_dealership_insights. Every tool is read-only and fixed to the chosen dealership. Lead names and contact details are returned only by get_lead, and only when the user granted the Lead contact details permission. Only endpoint contacted: https://mcp.goautofire.com (the sign-in happens on https://www.goautofire.com and the project's Supabase Auth issuer). Terms: https://www.goautofire.com/terms"
+    }
+  }
+}
